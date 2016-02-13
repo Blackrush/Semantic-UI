@@ -25,10 +25,10 @@
 --------------------*/
 
 /* This is the single variable that controls them all */
-@emSize   : 14px;
+@emSize   : 15px;
 
 /* The size of page text  */
-@fontSize : 14px;
+@fontSize : 15px;
 
 
 /*-------------------
@@ -332,8 +332,8 @@
 --------------------*/
 
 /* For source only. Modified in gulp for dist */
-@imagePath : '../../themes/default/assets/images';
-@fontPath  : '../../themes/default/assets/fonts';
+@imagePath : '~semantic-ui/src/themes/default/assets/images';
+@fontPath  : '~semantic-ui/src/themes/default/assets/fonts';
 
 /*-------------------
        Em Sizes

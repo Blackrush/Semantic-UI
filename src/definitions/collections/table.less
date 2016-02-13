@@ -499,10 +499,12 @@
 .ui.table tbody tr td.selectable {
   padding: 0em;
 }
-.ui.table tbody tr td.selectable > a:not(.ui) {
-  display: block;
-  color: inherit;
-  padding: @cellVerticalPadding @cellHorizontalPadding;
+.ui.table tbody tr td.selectable {
+  & > a:not(.ui), & > form.link a {
+    display: block;
+    color: inherit;
+    padding: @cellVerticalPadding @cellHorizontalPadding;
+  }
 }
 
 /* Other States */
