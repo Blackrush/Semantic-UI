@@ -1820,9 +1820,6 @@ $.fn.dropdown = function(parameters) {
               if(settings.saveRemoteData) {
                 module.restore.remoteValues();
               }
-              else {
-                module.clearValue();
-              }
             }
             else {
               module.set.selected();
